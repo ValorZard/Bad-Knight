@@ -1,0 +1,24 @@
+{
+	"color": "#ffffffff",
+	"description": "The hero of our story",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1628198250.json",
+	"mirror_portraits": false,
+	"name": "Dell",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "icon",
+			"path": "res://icon.png"
+		}
+	],
+	"scale": 100
+}

@@ -1,0 +1,54 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1628198250.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1628198250.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi I'm Dell and I'm going to become an adventurer!"
+		},
+		{
+			"action": "join",
+			"character": "character-1628198280.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1628198280.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What ho, brave souls! Join me, Sir Isaac the Boldhand, in saving the world!"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628198228.json",
+		"name": "testTimeline"
+	}
+}
