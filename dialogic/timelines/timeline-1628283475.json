@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"character": "character-1628282135.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Adventurer's Tip #662\nUse ENTER or SPACE to attack!\nUse your weapon to protect yourself and others, never to oppress!"
+		},
+		{
+			"action": "join",
+			"character": "character-1628198250.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1628198250.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Evil beware, Dell is... hair...?"
+		},
+		{
+			"character": "character-1628198250.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I need to work on that one."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628283475.json",
+		"name": "AT662"
+	}
+}

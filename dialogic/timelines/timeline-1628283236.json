@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"character": "character-1628282135.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Adventurer's Tip #211\nPreserve the Spirit of Exploration in your peers!\nWhen leaving behind notes, do not reveal what precisely lies around the next turn.\nRefrain from sharing the solutions to any challenges. Reset any puzzles or mechanisms you solve while adventuring."
+		},
+		{
+			"action": "join",
+			"character": "character-1628198250.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1628198250.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This sounds like a lot of work, but it's important!"
+		},
+		{
+			"character": "character-1628198250.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Everyone knows adventuring is all about the Spirit of Exploration!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628283236.json",
+		"name": "AT211"
+	}
+}

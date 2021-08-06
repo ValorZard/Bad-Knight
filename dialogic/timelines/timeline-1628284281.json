@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1628282135.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Use Scribe's Parchment for your Notes!\nThe finest in widely-available parchments, Scribe's Parchment is an every-day-use paper for taking and leaving notes.\nUsed by the famed Adventurers Guild and the average person alike, this lightly magical paper will remain in place as long as needed, then decompose without a trace.\nLeave behind knowledge and wisdom, or keep track of your day to day lives with our eco-, magi-friendly product!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628284281.json",
+		"name": "Parchment"
+	}
+}

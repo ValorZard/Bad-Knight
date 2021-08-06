@@ -5,7 +5,7 @@
 			"character": "character-1628198250.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "",
+			"portrait": "Default",
 			"position": {
 				"0": true,
 				"1": false,
@@ -17,7 +17,7 @@
 		{
 			"character": "character-1628198250.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Hi I'm Dell and I'm going to become an adventurer!"
 		},
 		{
@@ -25,7 +25,7 @@
 			"character": "character-1628198280.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "",
+			"portrait": "Default",
 			"position": {
 				"0": false,
 				"1": false,
@@ -37,7 +37,7 @@
 		{
 			"character": "character-1628198280.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "What ho, brave souls! Join me, Sir Isaac the Boldhand, in saving the world!"
 		},
 		{
@@ -49,6 +49,6 @@
 	"metadata": {
 		"dialogic-version": "1.2.5",
 		"file": "timeline-1628198228.json",
-		"name": "testTimeline"
+		"name": "test Timeline"
 	}
 }

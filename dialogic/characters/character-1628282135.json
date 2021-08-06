@@ -1,23 +1,19 @@
 {
 	"color": "#ffffffff",
-	"description": "The hero of our story",
+	"description": "Generic \"Character\" for the notes we pick up in the game.",
 	"display_name": "",
 	"display_name_bool": false,
-	"id": "character-1628198250.json",
+	"id": "character-1628282135.json",
 	"mirror_portraits": false,
-	"name": "Dell",
+	"name": "Note",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
-	"offset_y": -50,
+	"offset_y": 0,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://icon.png"
-		},
-		{
-			"name": "icon",
-			"path": "res://icon.png"
+			"path": ""
 		}
 	],
 	"scale": 100

@@ -1,0 +1,51 @@
+{
+	"events": [
+		{
+			"character": "character-1628282135.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Adventurer's Tip #2"
+		},
+		{
+			"character": "character-1628282135.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pack extra clothes and supplies!"
+		},
+		{
+			"action": "join",
+			"character": "character-1628198250.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1628198250.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well that one's easy enough!"
+		},
+		{
+			"character": "character-1628198250.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don't need extra clothes when you're already wearing all you've got."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628282597.json",
+		"name": "AT2"
+	}
+}
