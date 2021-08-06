@@ -13,4 +13,7 @@ func _physics_process(delta):
 		velocity = Vector2.ZERO
 	move_and_collide(velocity * 1.5)
 	if Input.is_action_just_pressed("ui_accept"):
-		print("placeholder")
+		if $RayCast2D.is_colliding() == true:
+			print($RayCast2D.get_collider())
+			if $RayCast2D.get_collider().get_parent().get_meta("type") == "breakableObject":
+				$RayCast2D.get_collider().get_parent().queue_free()
