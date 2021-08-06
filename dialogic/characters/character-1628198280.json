@@ -1,0 +1,24 @@
+{
+	"color": "#ffffffff",
+	"description": "Sir Isaac the Boldhand, the face of the Adventurers Guild and mentor to Dell.",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1628198280.json",
+	"mirror_portraits": false,
+	"name": "Sir Isaac",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "icon",
+			"path": "res://icon.png"
+		}
+	],
+	"scale": 100
+}
