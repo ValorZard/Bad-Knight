@@ -27,3 +27,5 @@ func _physics_process(delta):
 			print($RayCast2D.get_collider())
 			if $RayCast2D.get_collider().get_parent().get_meta("type") == "breakableObject":
 				$RayCast2D.get_collider().get_parent().queue_free()
+			elif $RayCast2D.get_collider().get_parent().get_meta("type") == "talkableObject":
+				print("dialogic")
