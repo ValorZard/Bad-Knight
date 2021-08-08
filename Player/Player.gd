@@ -1,11 +1,21 @@
 extends KinematicBody2D
 
 var velocity = Vector2.ZERO
-
+var facingLeft
+func _ready():
+	facingLeft = true
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
 	var input_vector = Vector2.ZERO
 	input_vector.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
+	if input_vector.x > 0 and facingLeft == true:
+		$Sprite.set_flip_h(true)
+		facingLeft = false
+		$RayCast2D.rotation_degrees = -90
+	elif input_vector.x < 0 and facingLeft == false:
+		$Sprite.set_flip_h(false)
+		facingLeft = true
+		$RayCast2D.rotation_degrees = 90
 	input_vector.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
 	if input_vector != Vector2.ZERO:
 		velocity = input_vector.normalized()
